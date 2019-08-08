@@ -1,3 +1,4 @@
+
 package com.minaro.react.deezer;
 
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -19,18 +20,12 @@ public class RNDeezerModule extends ReactContextBaseJavaModule {
     return "RNDeezer";
   }
 
-
-
-  //Custom function that we are going to export to JS
-   @ReactMethod
-   public void getDeviceName(Callback cb) {
-       try{
-           cb.invoke(null, android.os.Build.MODEL);
-       }catch (Exception e){
-           cb.invoke(e.toString(), null);
-       }
-   }
-
-
-
+  @ReactMethod
+  public void getDeviceName(Callback cb) {
+         try{
+             cb.invoke(null, android.os.Build.MODEL);
+         }catch (Exception e){
+             cb.invoke(e.toString(), null);
+         }
+     }
 }
