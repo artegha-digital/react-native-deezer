@@ -6,6 +6,7 @@
 
 or
 `$ npm install react-native-deezer`
+
 `$ react-native link react-native-deezer`
 
 
