@@ -1,6 +1,3 @@
+import Deezer from './src/Deezer'
 
-import { NativeModules } from 'react-native';
-
-const { RNDeezer } = NativeModules;
-
-export default RNDeezer;
+export default Deezer;
