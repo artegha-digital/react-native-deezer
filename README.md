@@ -2,13 +2,13 @@
 
 ## Getting started
 
-`$ yarn i react-native-deezer`
+`$ yarn i rn-deezer-sdk`
 
 or
 
-`$ npm install react-native-deezer`
+`$ npm install rn-deezer-sdk`
 
-`$ react-native link react-native-deezer`
+`$ react-native link rn-deezer-sdk`
 
 
 ## Try it
