@@ -1,7 +1,7 @@
 {
   "name": "rn-deezer-sdk",
   "title": "React Native Deezer",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "TODO",
   "main": "index.js",
   "scripts": {
