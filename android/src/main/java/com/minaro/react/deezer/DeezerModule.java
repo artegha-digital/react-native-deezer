@@ -24,8 +24,4 @@ public class DeezerModule extends ReactContextBaseJavaModule {
         // TODO: Implement some actually useful functionality
         callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
     }
-    @ReactMethod
-    public void getModuleName( Callback callback) {
-        callback.invoke("Deezer");
-    }
 }
