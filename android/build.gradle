@@ -10,7 +10,7 @@ buildscript {
     dependencies {
         // Matches recent template from React Native (0.60)
         // https://github.com/facebook/react-native/blob/0.60-stable/template/android/build.gradle#L16
-        classpath("com.android.tools.build:gradle:${safeExtGet('gradlePluginVersion', '3.2.1')}")
+        classpath("com.android.tools.build:gradle:${safeExtGet('gradlePluginVersion', '3.4.1')}")
     }
 }
 
@@ -48,13 +48,12 @@ repositories {
         // https://github.com/facebook/react-native/blob/0.60-stable/template/android/build.gradle#L28
         url "$projectDir/../node_modules/react-native/android"
     }
+    mavenCentral()
     google()
-    jcenter()
 }
 
 dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactnativeVersion', '+')}"
-    implementation files('libs\\deezer-sdk-0.11.2.aar')
 }
 
 def configureReactNativePom(def pom) {
