@@ -1,5 +1,5 @@
 {
-  "name": "react-native-deezer",
+  "name": "rn-deezer-sdk",
   "title": "React Native Deezer",
   "version": "1.0.16",
   "description": "TODO",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-deezer.git",
-    "baseUrl": "https://github.com/github_account/react-native-deezer"
+    "url": "git+https://github.com/artegha-digital/react-native-deezer.git",
+    "baseUrl": "https://github.com/artegha-digital/react-native-deezer"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
+    "name": "Minaro",
     "email": "yourname@email.com"
   },
   "license": "MIT",
